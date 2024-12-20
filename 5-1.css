@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+body {
+    background: #07081A;
+}
+
+main {
+    background: #07081A;
+}
+
+
+footer {
+    background: #07081A;
+}
+
+.headerClass a {
+    color: #fff;
+}
+
+
+.headerClass {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 14px 0px;
+    border: 1px solid;
+    border-bottom: 1px solid #261C51;
+}
+
+
+.headerstart {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    gap: 16px;
+
+}
+
+
+
+.headerCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+#home_box {
+    color: #B968DE;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.headerlast {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: #9100D3;
+    flex-basis: 32px;
+    height: 32px;
+}
+
+
+/* main */
+
+
+.mainClass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin-top: 102px;
+}
+
+
+.pClass {
+    text-align: center;
+}
+
+.mainstart {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    max-width: 500px;
+    width: 100%;
+}
+
+.mainsecond {
+    color: #C0C0C0;
+    font-size: 16pxx;
+    font-weight: 400;
+}
+
+
+
+.buttonClass {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    background: #9100D3;
+    border-radius: 8px;
+    padding: 12px 24px;
+    justify-content: center;
+    cursor: pointer;
+    border: 0;
+}
+
+
+/*  */
+
+
+.logoClass {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 88px;
+    flex-wrap: wrap;
+}
+
+
+
+.imagesClass {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+
+.imagesClass p {
+    color: #FFF;
+    font-size: 24px;
+}
+
+
+/*  */
+
+
+.divClass {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 64px;
+    justify-content: center;
+    margin-top: 112px;
+    flex-wrap: wrap;
+}
+
+
+.divoneClass {
+    display: flex;
+    padding: 16px 24px;
+    border-radius: 8px;
+    border: 1px solid #261C51;
+}
+
+.paragrapClass {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.plastClass {
+    color: #C0C0C0;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 200px;
+    width: 100%;
+    margin-top: 16px;
+}
+
+/* footer */
+
+.footerClass {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 84px;
+    padding: 20px 0px;
+    border: 1px solid;
+    border-top: 1px solid #261C51;
+    flex-wrap: wrap;
+}
+
+.footeroneClass {
+    display: flex;
+}
+
+
+.footeroneClass p {
+    display: flex;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footersendClass {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
